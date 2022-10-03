@@ -1,0 +1,13 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/cpal-84901946394a260a.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/error.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/enumerate.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/null/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/platform/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/samples_formats.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/traits.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/cpal-84901946394a260a.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/error.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/enumerate.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/null/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/platform/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/samples_formats.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/traits.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/error.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/alsa/enumerate.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/host/null/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/platform/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/samples_formats.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cpal-0.13.5/src/traits.rs:

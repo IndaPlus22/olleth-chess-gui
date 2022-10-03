@@ -1,0 +1,12 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/glyph_brush-8a92af6b6f3a8e2c.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/extra.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush/builder.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_calculator.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/owned_section.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/section.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/legacy.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/glyph_brush-8a92af6b6f3a8e2c.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/extra.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush/builder.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_calculator.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/owned_section.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/section.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/legacy.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/extra.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_brush/builder.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/glyph_calculator.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/owned_section.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/section.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/glyph_brush-0.7.5/src/legacy.rs:

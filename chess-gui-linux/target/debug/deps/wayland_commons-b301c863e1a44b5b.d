@@ -1,0 +1,11 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/wayland_commons-b301c863e1a44b5b.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/debug.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/filter.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/map.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/socket.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/user_data.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/wire.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/wayland_commons-b301c863e1a44b5b.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/debug.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/filter.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/map.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/socket.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/user_data.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/wire.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/debug.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/filter.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/map.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/socket.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/user_data.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.28.6/src/wire.rs:

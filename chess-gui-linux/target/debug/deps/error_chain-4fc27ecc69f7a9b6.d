@@ -1,0 +1,11 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/error_chain-4fc27ecc69f7a9b6.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/liberror_chain-4fc27ecc69f7a9b6.rlib: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/error_chain-4fc27ecc69f7a9b6.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/impl_error_chain_kind.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/error_chain.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/quick_main.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/error-chain-0.12.4/src/backtrace.rs:

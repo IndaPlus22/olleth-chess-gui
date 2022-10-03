@@ -1,0 +1,11 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/cargo_metadata-5f5e5fcb15372715.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/libcargo_metadata-5f5e5fcb15372715.rlib: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/cargo_metadata-5f5e5fcb15372715.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs:

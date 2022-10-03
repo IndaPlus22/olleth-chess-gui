@@ -1,0 +1,14 @@
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/tiff-fb2dc98a69c5c2dc.rmeta: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/bytecast.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/ifd.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/stream.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/colortype.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/writer.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/error.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/tags.rs
+
+/home/olleth/rust-assignments/olleth-chess-gui/chess-gui-linux/target/debug/deps/tiff-fb2dc98a69c5c2dc.d: /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/lib.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/bytecast.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/ifd.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/stream.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/mod.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/colortype.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/writer.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/error.rs /home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/tags.rs
+
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/lib.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/bytecast.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/ifd.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/decoder/stream.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/mod.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/colortype.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/encoder/writer.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/error.rs:
+/home/olleth/.cargo/registry/src/github.com-1ecc6299db9ec823/tiff-0.6.1/src/tags.rs:
