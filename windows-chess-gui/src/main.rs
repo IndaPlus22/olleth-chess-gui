@@ -629,7 +629,8 @@ impl event::EventHandler<GameError> for AppState {
             if self.replay_turn < 777 && self.status == BoardStatus::Checkmate {
 
                 if self.replay_turn < self.saved_replay[0].len() {
-                    self.board = self.saved_replay[0][self.replay_turn];         
+                    self.board = self.saved_replay[0][self.replay_turn];
+                    println!("{}", self.replay_turn);        
                 }
             }
     
