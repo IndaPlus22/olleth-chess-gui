@@ -13,7 +13,7 @@ use std::{collections::HashMap, path, str::FromStr, vec, time::{self, Duration, 
 /// A chess board is 8x8 tiles.
 const GRID_SIZE: i16 = 8;
 /// Sutible size of each tile.
-const GRID_CELL_SIZE: (i16, i16) = (110, 110);
+const GRID_CELL_SIZE: (i16, i16) = (90, 90);
 
 /// Size of the application window.
 const SCREEN_SIZE: (f32, f32) = (
@@ -312,6 +312,7 @@ impl event::EventHandler<GameError> for AppState {
                 } 
         }
 
+//Draws the whole chessboard
         // draw grid
         for row in 0..8 {
             for col in 0..8 {
@@ -356,7 +357,7 @@ impl event::EventHandler<GameError> for AppState {
                         ctx,
                         self.sprites.get(&pieces).unwrap(),
                         graphics::DrawParam::default()
-                            .scale([0.78125, 0.78125]) // Tile size is 110 pixels, while image sizes are 440 pixels.
+                            .scale([0.625, 0.625]) // Tile size is 110 pixels, while image sizes are 440 pixels.
                             .dest([
                                 col as f32 * GRID_CELL_SIZE.0 as f32 + 25.0,
                                 row as f32 * GRID_CELL_SIZE.1 as f32 + 25.0,
@@ -367,7 +368,8 @@ impl event::EventHandler<GameError> for AppState {
             }
         }
 
-        //draw text with dark gray Coloring and center position
+
+//draw the text for who turn it is
         graphics::draw(
             ctx,
             &side_to_move_text,
@@ -379,32 +381,21 @@ impl event::EventHandler<GameError> for AppState {
                 }),
         )
         .expect("Failed to draw text.");
-
-
-        //draw text with dark gray Coloring and center position
-        graphics::draw(
-            ctx,
-            &side_to_move_text,
-            graphics::DrawParam::default()
-                .color([0.0, 0.0, 0.0, 1.0].into())
-                .dest(ggez::mint::Point2 {
-                    x:  100.0 + (GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32) as f32,
-                    y: 35.0,
-                }),
-        )
-        .expect("Failed to draw text.");
-
             
+//Draws the pieces on the cursor when grabbing the mouse, also draws the possible moves
             if input::mouse::cursor_grabbed(ctx) == true && self.status != BoardStatus::Checkmate {
 
+                //Gets the current position of the mouse 
                 let pos = input::mouse::position(ctx);
 
+                //creates a square at the clicked position and maybe finds piece on that square
                 let sq = chess::Square::make_square(chess::Rank::from_index(7-self.pos_y as usize), chess::File::from_index(self.pos_x as usize));
                 self.piece = (self.board.color_on(sq), self.board.piece_on(sq));
 
+                //only if their exists a piece on the square and the color is the current side to move.
                 if self.piece != (None, None) && self.piece.0 == Some(self.side_to_move)  { 
 
-
+                    //Finds the queen- and kingside moves.
                     let mut kingside = chess::CastleRights::kingside_squares(&self.board.castle_rights(self.side_to_move), self.side_to_move) & !*self.board.combined();
                     let mut queenside = chess::CastleRights::queenside_squares(&self.board.castle_rights(self.side_to_move), self.side_to_move) & !*self.board.combined();
                     
@@ -417,7 +408,8 @@ impl event::EventHandler<GameError> for AppState {
                         chess::Color::White => if self.board.piece_on(chess::Square::make_square(chess::Rank::First, chess::File::F)) != None { kingside = kingside & BitBoard::set(chess::Rank::First, chess::File::F) },
                         chess::Color::Black => if self.board.piece_on(chess::Square::make_square(chess::Rank::Eighth, chess::File::F)) != None   { kingside = kingside & BitBoard::set(chess::Rank::Eighth, chess::File::F) },
                     }
-                    
+
+                    //finds the bitboards for the possible moves
                     let mut bb = chess::BitBoard(0);
                     match self.piece.1 {
                         Some(Piece::Pawn) => bb = chess::get_pawn_moves(sq, self.piece.0.unwrap(), *self.board.combined()) & !*self.board.color_combined(self.side_to_move),
@@ -428,13 +420,13 @@ impl event::EventHandler<GameError> for AppState {
                          Some(Piece::King) =>  bb = chess::get_king_moves(sq) & !*self.board.color_combined(self.side_to_move) | kingside | queenside,
                          _ => bb = chess::BitBoard(0)
                     };
-         
+                    
+                    //iterates through the squares on the bitboard
                     for x in bb  {
-                        let r = 7-x.get_rank().to_index();
+                        let r = 7-x.get_rank().to_index(); 
                         let f = x.get_file().to_index();
 
-                       
-
+                            //possible moves square mesh and draws them
                             let rectangle = graphics::Mesh::new_rectangle(
                                 ctx,
                                 graphics::DrawMode::fill(),
@@ -464,6 +456,7 @@ impl event::EventHandler<GameError> for AppState {
                             graphics::draw(ctx, &rectangle, graphics::DrawParam::default())
                                 .expect("Failed to draw tiles.");
 
+                        //Finds the en passant square and draws it
                         if self.board.en_passant() != None && (sq.right() == self.board.en_passant() || sq.left() == self.board.en_passant()) {
                             let en_sq = self.board.en_passant().unwrap().uup();
                             let er = 7-en_sq.get_rank().to_index();
@@ -498,41 +491,8 @@ impl event::EventHandler<GameError> for AppState {
                                 .expect("Failed to draw tiles.");
                         }
 
-                        if self.board.en_passant() != None && (sq.right() == self.board.en_passant() || sq.left() == self.board.en_passant()) {
-                            let en_sq = self.board.en_passant().unwrap().uup();
-                            let er = 7-en_sq.get_rank().to_index();
-                            let ef = en_sq.get_file().to_index();
-                            let rectangle = graphics::Mesh::new_rectangle(
-                                ctx,
-                                graphics::DrawMode::fill(),
-                                graphics::Rect::new_i32(
-                                    ef as i32 * GRID_CELL_SIZE.0 as i32 + 20,
-                                    er as i32 * GRID_CELL_SIZE.0 as i32 + 20,
-                                    GRID_CELL_SIZE.0 as i32,
-                                    GRID_CELL_SIZE.1 as i32,
-                                ),
-                                match (ef as i32) % 2 {
-                                    0 => {
-                                        if  (er as i32) % 2 == 0 {
-                                            graphics::Color::new(233.0 / 255.0, 61.0 / 255.0, 77.0 / 255.0, 1.0) //White cell
-                                        } else {
-                                            graphics::Color::new(177.0 / 255.0, 38.0 / 255.0, 49.0 / 255.0, 1.0)
-                                        }
-                                    }
-                                    _ => {
-                                        if (er as i32) % 2 == 0 {
-                                            graphics::Color::new(177.0 / 255.0, 38.0 / 255.0, 49.0 / 255.0, 1.0)
-                                        } else {
-                                            graphics::Color::new(233.0 / 255.0, 61.0 / 255.0, 77.0 / 255.0, 1.0) 
-                                        }
-                                    }
-                                },
-                            ).expect("Failed to create tile.");
-                            graphics::draw(ctx, &rectangle, graphics::DrawParam::default())
-                                .expect("Failed to draw tiles.");
-                        }
 
-                        // draw all the piecess
+                        // draw the pieces over the possible moves. otherwise the disappear under the drawn possible moves.
                         let pieces = (self.board.color_on(x), self.board.piece_on(x));
                         if pieces.1 != None {
                             let pieces = (self.board.color_on(x).unwrap(), self.board.piece_on(x).unwrap());
@@ -540,7 +500,7 @@ impl event::EventHandler<GameError> for AppState {
                                 ctx,
                                 self.sprites.get(&pieces).unwrap(),
                                 graphics::DrawParam::default()
-                                    .scale([0.78125, 0.78125]) // Tile size is 110 pixels, while image sizes are 440 pixels.
+                                    .scale([0.625, 0.625]) // Tile size is 110 pixels, while image sizes are 440 pixels.
                                     .dest([
                                         f as f32 * GRID_CELL_SIZE.0 as f32 + 25.0,
                                         r as f32 * GRID_CELL_SIZE.1 as f32 + 25.0,
@@ -566,12 +526,13 @@ impl event::EventHandler<GameError> for AppState {
                     graphics::draw(ctx, &rectangle, graphics::DrawParam::default())
                         .expect("Failed to draw tiles.");
 
+                    //Draws the grabbed piece on the mouse 
                     let pieces = (self.board.color_on(sq).unwrap(), self.board.piece_on(sq).unwrap());
                     graphics::draw(
                         ctx,
                         self.sprites.get(&pieces).unwrap(),
                         graphics::DrawParam::default()
-                            .scale([0.78125, 0.78125]) // Tile size is 90 pixels, while image sizes are 45 pixels.
+                            .scale([0.625, 0.625]) // Tile size is 90 pixels, while image sizes are 45 pixels.
                             .dest([
                                 pos.x-55.0,
                                 pos.y-55.0,
@@ -584,27 +545,37 @@ impl event::EventHandler<GameError> for AppState {
                     }
                 }
 
+            //When you drop the piece on a square
             if input::mouse::cursor_grabbed(ctx) == false && self.piece != (None, None) && self.piece.0 == Some(self.side_to_move) && self.status != BoardStatus::Checkmate {
 
+                //current position of mouse
                 let pos = input::mouse::position(ctx);
 
+                //Finds the from and to square of the grabbed piece
                 let from_sq = chess::Square::make_square(chess::Rank::from_index(7-self.pos_y as usize), chess::File::from_index(self.pos_x as usize));
                 let to_sq = chess::Square::make_square(chess::Rank::from_index(7-((pos.y-20.0)/GRID_CELL_SIZE.0 as f32).floor() as usize), chess::File::from_index(((pos.x-20.0)/GRID_CELL_SIZE.0 as f32).floor() as usize));
 
+
                 let mut promotion = None;
+                //Checks if the pawn has a to square that lies on either rank 1 or 8.
                 if (to_sq.get_rank() == chess::Rank::First || to_sq.get_rank() == chess::Rank::Eighth) && self.piece.1 == Some(Piece::Pawn) {
                     promotion = Some(Piece::Queen);
                 }
-                let mv = chess::ChessMove::new(from_sq, to_sq, promotion);
-
                 
-                    
+                //Creates a move out of the from and to square aswell as the possible promotion.
+                let mv = chess::ChessMove::new(from_sq, to_sq, promotion);
+                
+                //Only works if the created moves actually is legal.
                 if self.game.make_move(mv) == true {
+
+                    //Updates board and status
                     self.board = self.game.current_position();
                     self.status = self.board.status();
 
+                    //Saves the the board for replay after game has ended
                     self.replay_boards.push(self.board);
 
+                    //Draws a square over the moved pieces origin position for fanciness
                     let rectangle = graphics::Mesh::new_rectangle(
                         ctx,
                         graphics::DrawMode::fill(),
@@ -654,6 +625,7 @@ impl event::EventHandler<GameError> for AppState {
 
             }
 
+            //Replays the boards
             if self.replay_turn < 777 && self.status == BoardStatus::Checkmate {
 
                 if self.replay_turn < self.saved_replay[0].len() {
@@ -693,6 +665,7 @@ impl event::EventHandler<GameError> for AppState {
         )  { 
         if button == event::MouseButton::Left  {
 
+            //Finds the rank and file position in f32
             if ( 20.0 < x && x < GRID_CELL_SIZE.0 as f32 * 8.0 + 20.0) && ( 20.0 < y && y < GRID_CELL_SIZE.0 as f32 * 8.0 + 20.0) {
                 self.pos_x = (((x-20.0)/GRID_CELL_SIZE.0 as f32)).floor();
                 self.pos_y = (((y-20.0)/GRID_CELL_SIZE.0 as f32)).floor();
@@ -700,6 +673,7 @@ impl event::EventHandler<GameError> for AppState {
                 input::mouse::set_cursor_grabbed(ctx, true).ok(); 
             }
 
+            //Starts a new game
             if self.status == BoardStatus::Checkmate && (x >= 40.0 + GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32 && x <= 40.0 + GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32 + 340.0) && (y >= 100.0 && y <= 160.0) {
                 self.board = Board::default();
                 self.status = BoardStatus::Ongoing;
@@ -711,6 +685,7 @@ impl event::EventHandler<GameError> for AppState {
                 self.replay_turn = 999;
             }
 
+            //Updates replay_turn to 0 if you press Replay button
             if self.status == BoardStatus::Checkmate && (x >= 40.0 + (GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32) && x <= 40.0 + GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32 + 340.0) && (y >= 160.0 && y <= 220.0) {
                 self.replay_turn = 0;
             }
