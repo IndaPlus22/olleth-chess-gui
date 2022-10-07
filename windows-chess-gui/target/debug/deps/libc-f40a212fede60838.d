@@ -1,0 +1,11 @@
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\libc-f40a212fede60838.rmeta: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\macros.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\fixed_width_ints.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\msvc\mod.rs
+
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\liblibc-f40a212fede60838.rlib: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\macros.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\fixed_width_ints.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\msvc\mod.rs
+
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\libc-f40a212fede60838.d: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\macros.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\fixed_width_ints.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\msvc\mod.rs
+
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\lib.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\macros.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\fixed_width_ints.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\mod.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.134\src\windows\msvc\mod.rs:

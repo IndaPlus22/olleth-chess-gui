@@ -1,0 +1,11 @@
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\ppv_lite86-23b159361aeed926.rmeta: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs
+
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\libppv_lite86-23b159361aeed926.rlib: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs
+
+C:\Users\olltho\Desktop\olleth-chess-gui\windows-chess-gui\target\debug\deps\ppv_lite86-23b159361aeed926.d: C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs
+
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs:
+C:\Users\olltho\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs:
