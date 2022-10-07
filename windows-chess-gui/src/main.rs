@@ -299,7 +299,7 @@ impl event::EventHandler<GameError> for AppState {
                                 .color([0.0, 0.0, 0.0, 1.0].into())
                                 .dest(ggez::mint::Point2 {
                                     x: 140.0 + (GRID_SIZE as f32 * GRID_CELL_SIZE.0 as f32) as f32,
-                                    y: 160.0 + 10.0 * i as f32,
+                                    y: 180.0 + 10.0 * i as f32,
                                 }),
                             )
                             .expect("Failed to draw text.");
